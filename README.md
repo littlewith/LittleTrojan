@@ -117,7 +117,17 @@ Tue May  2 10:05:56 2023
 
 4.捕获摄像头: camerashot
 ```bash
-# 和捕获屏幕类似，捕获摄像头的图像也会传回服务器
+# 和捕获屏幕类似，捕获摄像头的图像也会传回服务器（目前还未实现）
+```
 
+5.重启服务: restart
+```bash
+# 如果当前连接出现问题，当回到command界面的时候，可以直接使用restart命令来重启连接
 
+'192.168.23.1', 1934 (command)>restart
+The handler will be restarted....Waiting...
+Service Launch! Listen on  0.0.0.0 : 1234
+Starting convert with  ('192.168.23.1', 1937)
+Tue May  2 10:25:10 2023
+'192.168.23.1', 1937 (command)>
 ```
