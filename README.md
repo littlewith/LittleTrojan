@@ -1,5 +1,7 @@
 # LittleTrojan
 
+![](https://raw.githubusercontent.com/littlewith/LittleTrojan/master/Logo.png)
+
 ## LittleTrojan是什么
 * 是一个利用Golang和Python实现的Windows远程控制工具。
 * Client使用Golang实现，Server使用python实现，两者通过socket套接字通信。
